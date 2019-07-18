@@ -61,3 +61,29 @@ first_name 5
 last_name 5
 father 5
 ```
+#### 3) Write following functions body. 2 Nodes are passed as parameter. You need to find Least Common Ancestor and print its value. Node structure are as following:
+
+```
+class Node{
+	value;
+	parent;
+}
+```
+Ancestor Definition: 
+Any node falls under parent chain till root node.
+A node is an ancestor of itself.
+
+For example: if we consider Node 7 it’s ancestors will be 1, 3, and 7.
+
+All nodes values are unique for this tree.
+
+You function needs to find least common ancestor (closest common ancestor). For an example for the tree image, 
+if 6 and 7 passed to lca it should return 3
+if 3 and 7 passed to lca it should return 3
+```
+def lca(node1, node2):
+	# Write function body
+
+```
+You may write additional function.
+Explain the Runtime and Memory requirements for your solution.
