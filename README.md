@@ -61,7 +61,7 @@ first_name 5
 last_name 5
 father 5
 ```
-#### 3) Write following functions body. 2 Nodes are passed as parameter. You need to find Least Common Ancestor and print its value. Node structure are as following:
+#### 3) [Write following functions body. 2 Nodes are passed as parameter. You need to find Least Common Ancestor and print its value](https://github.com/sujonict07/offline/blob/master/lowest_common_ancestor.py). Node structure are as following:
 
 ```
 class Node{
